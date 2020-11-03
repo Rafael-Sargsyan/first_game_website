@@ -79,8 +79,8 @@ function init() {
     document.getElementById('score--1').textContent = '0';
     document.getElementById('current--0').textContent = '0';
     document.getElementById('current--1').textContent = '0'; 
-    document.getElementById('name--0').textContent = 'Mko';
-    document.getElementById('name--1').textContent = 'Rafo';
+    document.getElementById('name--0').textContent = 'Player1';
+    document.getElementById('name--1').textContent = 'Player2';
     document.querySelector('.player--0').classList.add('player--active');
     document.querySelector('.player--1').classList.remove('player--active');
 };
